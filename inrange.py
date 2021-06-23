@@ -3,7 +3,7 @@ import cv2
 import numpy as np 
 import matplotlib.pyplot as plt
 
-cap = cv2.VideoCapture('decke-schaube.mp4')
+cap = cv2.VideoCapture('VID_20210507_092305.mp4')
 
 frame_height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 frame_width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
